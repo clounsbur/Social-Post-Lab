@@ -1,0 +1,13 @@
+<div class="container">
+  <form #form="ngForm" (ngSubmit)="submitPost()">
+    <label
+      ><span class="title">Title:</span>
+      <input [(ngModel)]="newPost.title" class="titleInput" name="title"
+    /></label>
+    <label
+      ><span>Thought:</span>
+      <input [(ngModel)]="newPost.thought" name="thought" class="thoughtInput"
+    /></label>
+    <button>Add Post</button>
+  </form>
+</div>

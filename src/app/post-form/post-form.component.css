@@ -1,0 +1,50 @@
+.container {
+  width: 50%;
+  background-color: #b1ddea;
+  height: 300px;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+.titleInput {
+  width: 80%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.thoughtInput {
+  width: 80%;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 150px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+span {
+  margin: 0;
+}
+.title {
+  margin: 15px;
+}
+button {
+  width: 80%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 8px;
+}

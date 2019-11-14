@@ -1,0 +1,16 @@
+<app-post-form (submitted)="onSubmit($event)"></app-post-form>
+<!-- $event submitted is an event -->
+
+<div class="container">
+  <h1>
+    My Thoughts
+  </h1>
+  <button>New Thought</button>
+  <div class="buildThoughts">
+    <app-post
+      *ngFor="let post of posts; index as i"
+      [post]="post"
+      (deleted)="onDelete(i)"
+    ></app-post>
+  </div>
+</div>
